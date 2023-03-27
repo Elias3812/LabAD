@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 new={1:22,2:24,3:23,4:25,5:3,6:4,7:8,8:19,9:20,10:21,11:9,12:0,13:10,14:11,15:12,16:13,17:14,18:15,19:16,20:-1,21:17,22:18,23:6,24:1,25:2,26:7,27:5}
 
 
-def start(a=1,b=28,c=1,c1=3,d=2023):
+def start(a=1,b=28,c=1,c1=4,d=2023):
     headers = ['Year', 'Week', 'SMN', 'SMT', 'VCI', 'TCI', 'VHI', 'empty']
     cont = []
     for i in range(a,b):
